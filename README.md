@@ -13,6 +13,10 @@ struct MyStruct {
 	pub field2: i32;
 }
 
+fn require_in_heap(arg1: heap MyStruct) {
+	println(arg1.field1);
+}
+
 fn main() {
 	println("Hola mundo!");
 	var my_var = MyStruct{
@@ -24,6 +28,7 @@ fn main() {
 		field1: "333+333+111",
 		field2: 777
 	};
+	requrie_in_heap(my_var_in_heap);
 	println(my_var_in_heap);
 	free my_var_in_heap;
 }
