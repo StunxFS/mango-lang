@@ -1,6 +1,6 @@
 Module {
 	name: 'mango'
-	description: 'El lenguaje de programación Mango'
+	description: 'MangoVM'
 	version: '0.1.0'
 	license: 'MIT'
 	dependencies: []
