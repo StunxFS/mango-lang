@@ -1,6 +1,6 @@
 # El lenguaje de programación Mango
 
-Mango es un lenguaje de programación de juguete, desarrollado en Python usando LLVM como backend ([llvmlite](https://github.com/numba/llvmlite)).
+Mango es un lenguaje de programación de juguete, desarrollado en V, generando código fuente en C++.
 El lenguaje tiene sintaxis en inglés, respetando la tradición de los lenguajes de programación, pero, viene con mensajes de errores y advertencias
 en español.
 
