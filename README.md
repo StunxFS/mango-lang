@@ -27,6 +27,7 @@ struct MyStruct {
 	pub field1: string;
 	pub field2: i32;
 }
+
 from mymod use say;
 
 fn main() {
