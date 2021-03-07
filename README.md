@@ -36,4 +36,4 @@ fn main() {
 
 * * *
 
-(C) Todos los izquierdos reservados - El grupo de Mango 2021
+(C) 2021 Mango DevTeam - Todos los derechos reservados
