@@ -6,7 +6,12 @@ en español.
 
 **Ejemplo**
 
-```zig
+```rust
+mod mymod {
+	pub fn say(msg: string) {
+		println("mymod::say: {}", msg);
+	}
+}
 
 struct MyStruct {
 	pub field1: string;
@@ -16,6 +21,8 @@ struct MyStruct {
 fn require_in_heap(arg1: ^MyStruct) {
 	println(arg1.field1);
 }
+
+from mymod use say;
 
 fn main() {
 	println("Hola mundo!");
@@ -31,6 +38,7 @@ fn main() {
 	require_in_heap(my_var_in_heap);
 	println(my_var_in_heap);
 	free my_var_in_heap;
+	say("free!");
 }
 ```
 
