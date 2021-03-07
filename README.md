@@ -34,4 +34,6 @@ fn main() {
 }
 ```
 
+* * *
+
 (C) Todos los izquierdos reservados - El grupo de Mango 2021
