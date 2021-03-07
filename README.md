@@ -1,8 +1,18 @@
 # El lenguaje de programación Mango
 
 Mango es un lenguaje de programación de juguete, desarrollado en V, generando código fuente en C++.
-El lenguaje tiene sintaxis en inglés, respetando la tradición de los lenguajes de programación, pero, viene con mensajes de errores y advertencias
-en español.
+El lenguaje tiene sintaxis en inglés, respetando la tradición de los lenguajes de programación, pero,
+viene con mensajes de errores y advertencias en español.
+
+## ¿Por qué keywords y palabras en inglés, y no en español?
+
+Esto es solo un lenguaje de juguete, su fin es el aprender a crear compiladores. Así que por eso su
+sintaxis es mixta.
+
+## ¿Osea qué esto no será algo serio a futuro?
+
+No, no será algo serio, será solo un juguete de experimentación. También tiene como fines el
+descubrir fallas en el compilador del lenguaje V.
 
 **Ejemplo**
 
@@ -17,11 +27,6 @@ struct MyStruct {
 	pub field1: string;
 	pub field2: i32;
 }
-
-fn require_in_heap(arg1: ^MyStruct) {
-	println(arg1.field1);
-}
-
 from mymod use say;
 
 fn main() {
@@ -31,14 +36,7 @@ fn main() {
 		field2: 666
 	};
 	println(my_var.str());
-	const my_var_in_heap = new MyStruct{
-		field1: "333+333+111",
-		field2: 777
-	};
-	require_in_heap(my_var_in_heap);
-	println(my_var_in_heap);
-	free my_var_in_heap;
-	say("free!");
+	say("Hello world! x2");
 }
 ```
 
