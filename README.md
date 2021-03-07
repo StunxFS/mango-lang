@@ -1,6 +1,6 @@
 <h1 align="center">MangoVM</h1>
 
-Mango es una máquina virtual de juguete, desarrollado en V.
+<p align="center">Mango es una máquina virtual de juguete, desarrollado en V.</p>
 
 **Ejemplo:**
 
@@ -13,4 +13,4 @@ define main {
 
 * * *
 
-(C) 2021 Mango DevTeam - Todos los derechos reservados
+<p align="center">(C) 2021 Mango DevTeam - Todos los derechos reservados</p>
