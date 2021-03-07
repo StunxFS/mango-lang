@@ -5,9 +5,9 @@ Mango es una máquina virtual de juguete, desarrollado en V.
 **Ejemplo:**
 
 ```llvm
-define _start {
-	store "Hello World\n";
-	call println;
+define main {
+	store "Hello World\n"
+	call println
 }
 ```
 
