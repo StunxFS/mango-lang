@@ -33,3 +33,5 @@ fn main() {
 	free my_var_in_heap;
 }
 ```
+
+(C) Todos los izquierdos reservaods - Mango 2021
