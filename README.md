@@ -1,6 +1,7 @@
 <h1 align="center">El lenguaje de programación Mango</h1>
 
-Mango es un lenguaje de programación de juguete, desarrollado en V, generando código fuente en C++.
+Mango es un lenguaje de programación de juguete, desarrollado en V, generando un ejecutable con bytecode
+interpretable por la máquina virtual de Mango, MangoVM.
 El lenguaje tiene sintaxis en inglés, respetando la tradición de los lenguajes de programación, pero,
 viene con mensajes de errores y advertencias en español.
 
