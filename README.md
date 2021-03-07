@@ -34,4 +34,4 @@ fn main() {
 }
 ```
 
-(C) Todos los izquierdos reservados - Mango 2021
+(C) Todos los izquierdos reservados - El grupo de Mango 2021
